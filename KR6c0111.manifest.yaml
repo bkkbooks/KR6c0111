@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6c0111/v1
+canonical_location: https://kanripo.org/bkk/KR6c0111/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛般若經挾註
+  identifiers:
+    alt_id:
+    - T85n2739
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2739.xml
+    old_id: T85n2739
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0111_000.yaml, hash: 'sha256:a0759c91962b5aa8d1722b4492ecae1599d47d2c2f6593caf1b84e2e345d6f6a'}
+  - {seq: 1, filename: KR6c0111_001.yaml, hash: 'sha256:280834b1ca81dbfb1fe9d956a45070b78ec01de63920b00a32b8b7620aa925e6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0111_001.markers.yaml, hash: 'sha256:6b1fe0c7a0f0ab3b1d11fd901c426f6b05702fafd3a018f52a0a5a653fff8d52'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0111_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9320
+  label: 金剛般若經挾註
+  type: juan
+  level: 1
+hash: sha256:adecb63b6af7e32dc39004b9e0ff91205508d2b284bebde36b85d7ec0f211c71
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
